@@ -1,4 +1,4 @@
-
+{
 	"planets":[
 				{
 					"mass":1000,
@@ -40,4 +40,5 @@
 					"visited": false
 				}
 		]
+}
 
