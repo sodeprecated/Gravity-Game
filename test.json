@@ -1,0 +1,43 @@
+{
+	"planets":[
+				{
+					"mass":1000,
+					"x":800,
+					"y":400,
+					"radius":40,
+					"force": {"x":0,"y":0},
+					"velocity": {"x":0,"y":0},
+					"acceleration": {"x":0,"y":0},
+					"rotation": 0,
+					"rotationSpeed": 1,
+					"depend": null ,
+					"visited": false
+				},
+				{
+					"mass":200,
+					"x":270,
+					"y":400,
+					"radius":10,
+					"force": {"x":0,"y":0},
+					"velocity": {"x":0,"y":-900},
+					"acceleration": {"x":0,"y":0},
+					"rotation": 0,
+					"rotationSpeed": -5,
+					"depend": 0,
+					"visited": false
+				},
+				{
+					"mass":500,
+					"x":600,
+					"y":400,
+					"radius":40,
+					"force": {"x":0,"y":0},
+					"velocity": {"x":0,"y":1800},
+					"acceleration": {"x":0,"y":0},
+					"rotation": 0,
+					"rotationSpeed": 1,
+					"depend": 0,
+					"visited": false
+				}
+		]
+}
