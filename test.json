@@ -42,13 +42,13 @@
 		],
 	"player":{
 		"mass": 30,
-		"x": 800,
+		"x": 270,
 		"y": 400,
 		"radius": 10,    
 		"force": {"x": 0,"y":0},
 		"velocity": {"x":0,"y":0},
 		"acceleration": {"x":0,"y":0},
-		"connected": 0,
+		"connected": 1,
 		"rotationDelt": 0
 	}
 }
