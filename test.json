@@ -52,7 +52,8 @@
 		"velocity": {"x":0,"y":0},
 		"acceleration": {"x":0,"y":0},
 		"connected": 1,
-		"rotationDelt": 0
+		"rotationDelt": 0,
+		"image":"https://mrdanikus.github.io/meme/rocket.png"
 	}
 }
 
