@@ -47,7 +47,7 @@
 		"mass": 30,
 		"x": 270,
 		"y": 400,
-		"radius": 35,    
+		"radius": 20,    
 		"force": {"x": 0,"y":0},
 		"velocity": {"x":0,"y":0},
 		"acceleration": {"x":0,"y":0},
