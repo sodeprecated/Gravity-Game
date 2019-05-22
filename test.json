@@ -12,7 +12,7 @@
 					"rotationSpeed": 1,
 					"depend": null ,
 					"visited": false,
-					"type": "sun"
+					"image": "sun"
 				},
 				{
 					"mass":200,
@@ -26,7 +26,7 @@
 					"rotationSpeed": -5,
 					"depend": 0,
 					"visited": false,
-					"type": "mars"
+					"image": "mars"
 				},
 				{
 					"mass":500,
@@ -40,7 +40,7 @@
 					"rotationSpeed": 1,
 					"depend": 0,
 					"visited": false,
-					"type": "earth"
+					"image": "earth"
 				}
 		],
 	"player":{
