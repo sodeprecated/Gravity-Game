@@ -9,7 +9,7 @@
 					"velocity": {"x":0,"y":0},
 					"acceleration": {"x":0,"y":0},
 					"rotation": 0,
-					"rotationSpeed": 1,
+					"rotationSpeed": 0.7,
 					"depend": null ,
 					"visited": false,
 					"image": "https://mrdanikus.github.io/meme/sun.png"
@@ -23,7 +23,7 @@
 					"velocity": {"x":0,"y":-900},
 					"acceleration": {"x":0,"y":0},
 					"rotation": 0,
-					"rotationSpeed": -5,
+					"rotationSpeed": -1,
 					"depend": 0,
 					"visited": false,
 					"image": "https://mrdanikus.github.io/meme/mars.png"
@@ -37,7 +37,7 @@
 					"velocity": {"x":0,"y":1800},
 					"acceleration": {"x":0,"y":0},
 					"rotation": 0,
-					"rotationSpeed": 1,
+					"rotationSpeed": 0.8,
 					"depend": 0,
 					"visited": false,
 					"image": "https://mrdanikus.github.io/meme/earth.png"
