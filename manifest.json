@@ -1,0 +1,12 @@
+{
+	"image-planet":[
+		"https://mrdanikus.github.io/meme/jupiter.png",
+		"https://mrdanikus.github.io/meme/earth.png",
+		"https://mrdanikus.github.io/meme/mars.png",
+		"https://mrdanikus.github.io/meme/moon.png",
+		"https://mrdanikus.github.io/meme/sun.png",
+	],
+	"image-player":[
+		"https://mrdanikus.github.io/meme/rocket.png"
+	]
+}
