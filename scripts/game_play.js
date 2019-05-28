@@ -347,6 +347,7 @@ function getRotationDelt(player) {
 }
 
 
+
 function PlayerCollision(player) {
 	var Collision = null;
 	let pos1 = createVector(player.x,player.y);
