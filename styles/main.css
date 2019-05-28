@@ -1,0 +1,319 @@
+body{
+	overflow: hidden;
+}
+
+
+
+a:link, a:visited {
+  color: black;
+  text-align: center; 
+  text-decoration: none;
+}
+
+a:hover, a:active {
+ color: #333333;
+ text-decoration: underline;
+}
+ul li{
+	text-decoration: none;
+	list-style: none;
+}
+ul{
+		list-style-type: none;
+	padding: 0;
+}
+
+
+
+
+.task{
+
+	border-radius: 0 0 20px 20px;
+	border-width: 0px 3px 3px;
+	border-style: solid;
+	border-color: #023373;
+	display: inline-block;
+	position: fixed;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	align-items: center;
+	text-align: center;
+
+	background-color: #FFFFFF;
+}
+
+
+.task-item{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+	text-align: center;
+	padding: 0;
+}
+.notVisited{
+	
+}
+.visited{
+	
+}
+
+.task-img{
+	width: 40px;
+	height: 40px;
+}
+
+.defeatIn{
+	display: table; 
+	background-color: gray;
+	opacity: 0.7;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	align-items: center;
+}
+.noselect{
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.defeatIn p{
+	font-size: 10em;
+	text-align:center; 
+  	vertical-align: middle;
+  	display: table-cell; 
+}
+
+.success{
+	display: table; 
+	background-color: gray;
+	opacity: 0.0;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	align-items: center;
+}
+
+.success p{
+	font-size: 10em;
+	text-align:center; 
+  	vertical-align: middle;
+  	display: table-cell; 
+}
+
+
+.menu{
+	font-size: 3em;
+	text-align:center; 
+  	vertical-align: middle;
+  	display: table-row;
+	
+}
+.button{
+	position: absolute;
+	background-color: #D94A3D;
+	width: 40px;
+	height: 70px;
+	border-radius: 10px 0 0 10px;
+	right: 300px;
+	top: 200px;
+	margin-top: -35px;
+}
+.redactor-aside:hover{
+	transform: translate(-300px,0);
+	transition: 0.3s linear;
+}
+
+.redactor-aside{
+	transition: 0.3s linear;
+	position: absolute;
+	right: -300px;
+	width: 300px;
+	height: 400px;
+	top: 50vh;
+	margin-top: -200px;
+	background-color:#F1F1F6;
+	padding: 20px;
+	border-width: 4px 0 4px 4px;
+	border-style: solid ;
+	border-color: #010326;
+	border-radius: 5% 0 0 5%;
+}
+
+.redactor-aside-section{
+	align-content: center;
+}
+.redactor-aside-header{
+	padding: 0px 20px 20px;
+	color: #010326;
+	border-width: 0 0 4px;
+	border-style: solid;
+	border-color: #010326; 
+	font-weight: bold;
+	font-size: 1.5em;
+	font-family: 'Arial';
+}
+.redactor-aside-planets-item{
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	display: inline-block;
+}
+.redactor-aside-planets-item img{
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+}
+.redactor-aside-planets{
+	padding: 20px 0px 10px;
+	position: relative;
+	width: 291px;
+	height: 334px;
+	left: 6px;
+	overflow: scroll;
+
+}
+.set{
+	display: none;
+	background-color:#F1F1F6;
+	position: absolute;
+	border: 4px solid black;
+	left: 50vw;
+	margin-left: -150px;
+	top: 5vh;
+	border-radius: 3%;
+	width: 300px;
+	height: 200px;
+	padding: 10px;
+
+}
+.set img{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	right: 10px;
+	top: 10px;
+}
+.set-button{
+	width: 80px;
+	height: 30px;
+	background-color: #88A649;
+	border-radius: 10%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 10px;
+	text-align: center;
+	padding: 4px;
+	color: #F1F1F6;
+	font-size: 1em;
+}
+.set-button:active{
+	background-color: #6c843a;
+}
+.set-button:hover{
+	background-color:gray;
+}
+.set-info-text{
+	
+}
+.choosed{
+	border: 4px solid red;
+	border-radius: 50%;
+}
+.set-vector{
+	height: 25px;
+	width: 30px;
+	
+	display: inline-block;
+	color: #F1F1F6;
+	font-size: 1em;
+	text-align:center;
+	padding: 0px;
+	border-radius: 25%;
+}
+
+.set-info ul li input{
+	width: 100px;
+	border: 1px solid #010326;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	background-color: #F1F1F6;
+	color: #010326;
+	outline: none;
+	padding: 5px;
+}
+.set-info ul li{
+	margin: 10px;
+	display: block;
+}
+.dropdown{
+	display: inline-block;
+}
+.dropdown-toggle{
+	width: 30px !important;
+    height: 20px !important;
+    padding: 0;
+    text-align: center;
+    background-color: #88A649;
+}
+.dropdown-menu{
+	padding: 0;
+	width: 100% !important;
+	min-width: 80px;
+	text-align: center !important;
+
+}
+.dropdown-image{
+	position: relative !important;
+	width: 50px !important; 
+	height: 50px !important;
+	margin-left: 10px!important;
+	margin-top: -10px!important;
+
+}
+.dropdown-item{
+	vertical-align: middle;
+	width: 50px !important;
+	height: 50px !important;
+	margin-left: 13px !important;
+	padding: 0px !important;
+}
+#saved{
+	position: absolute;
+	font-size: 5em;
+	color: gray;
+	opacity: 0;
+	border-radius: 10%;
+	left: 50%;
+	margin-left: -1.5em;
+	bottom: 0;
+	margin-top: -40px;
+	transition: opacity 3s;
+	display: none;
+}
+#main-button-container{
+	position: absolute;
+}
+
+
+.redactor-aside-planets::-webkit-scrollbar { width: 0 !important }
+.redactor-aside-planets { overflow: -moz-scrollbars-none; }
+.redactor-aside-planets { -ms-overflow-style: none; }
+
+
+
+
