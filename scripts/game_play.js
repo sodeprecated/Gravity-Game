@@ -257,7 +257,7 @@ async function makeTask(array) {
 			img.setAttribute("src",element.imagePath);
 		}
 		else{
-			img.setAttribute("src","assets/confirm.png");
+			img.setAttribute("src","https://mrdanikus.github.io/meme/confirm.png");
 		}
 		
 		member.appendChild(img);
@@ -273,7 +273,7 @@ function updateTask() {
 	task.planets.forEach(function(element){
 		var member = document.getElementById("task-img-"+task.planets.indexOf(element));
 		if(element.visited){
-			member.setAttribute("src","assets/confirm.png");
+			member.setAttribute("src","https://mrdanikus.github.io/meme/confirm.png");
 			completed++;
 		}
 	});
