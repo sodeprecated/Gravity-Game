@@ -203,7 +203,7 @@ function createPlayerFromJSON(json){
 var waitForResponse = 0;
 
 async function load(name){
-	let url = "https://mrdanikus.github.io/meme/" + name + ".json";
+	let url = "https://raw.githubusercontent.com/MrDanikus/Gravity-Game/master/" + name + ".json";
 	var request = new XMLHttpRequest();
 	request.open('GET', url,false);
 	//request.responseType = 'json';
@@ -257,7 +257,7 @@ async function makeTask(array) {
 			img.setAttribute("src",element.imagePath);
 		}
 		else{
-			img.setAttribute("src","https://mrdanikus.github.io/meme/confirm.png");
+			img.setAttribute("src","https://raw.githubusercontent.com/MrDanikus/Gravity-Game/master/confirm.png");
 		}
 		
 		member.appendChild(img);
@@ -273,7 +273,7 @@ function updateTask() {
 	task.planets.forEach(function(element){
 		var member = document.getElementById("task-img-"+task.planets.indexOf(element));
 		if(element.visited){
-			member.setAttribute("src","https://mrdanikus.github.io/meme/confirm.png");
+			member.setAttribute("src","https://raw.githubusercontent.com/MrDanikus/Gravity-Game/master/confirm.png");
 			completed++;
 		}
 	});
