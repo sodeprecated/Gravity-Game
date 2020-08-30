@@ -12,7 +12,7 @@
 					"rotationSpeed": 0.7,
 					"depend": null ,
 					"visited": false,
-					"image": "https://mrdanikus.github.io/meme/jupiter.png"
+					"image": "https://raw.githubusercontent.com/MrDanikus/Gravity-Game/master/jupiter.png"
 				},
 				{
 					"mass":200,
@@ -26,7 +26,7 @@
 					"rotationSpeed": -1,
 					"depend": 0,
 					"visited": false,
-					"image": "https://mrdanikus.github.io/meme/mars.png"
+					"image": "https://raw.githubusercontent.com/MrDanikus/Gravity-Game/master/mars.png"
 				},
 				{
 					"mass":500,
@@ -40,7 +40,7 @@
 					"rotationSpeed": 0.8,
 					"depend": 0,
 					"visited": false,
-					"image": "https://mrdanikus.github.io/meme/earth.png"
+					"image": "https://raw.githubusercontent.com/MrDanikus/Gravity-Game/master/earth.png"
 				}
 		],
 	"player":{
@@ -54,7 +54,7 @@
 		"connected": 1,
 		"rotationDelt": 0,
 		"rotation": 0,
-		"image":"https://mrdanikus.github.io/meme/rocket.png"
+		"image":"https://raw.githubusercontent.com/MrDanikus/Gravity-Game/master/rocket.png"
 	}
 }
 
